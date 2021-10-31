@@ -6,8 +6,8 @@ const https = require("https");
 const { response } = require("express");
 
 //API data
-const list_id = "12cc7b93fe";
-const apiKey = "af3a3d69bfddcce94045ddaab7c2ab3e-us5";
+const list_id = "";
+const apiKey = "";
 
 
 // new instance of express
@@ -100,10 +100,3 @@ app.listen(process.env.PORT || 3000, function() {
 });
 
 
-
-// api key
-// af3a3d69bfddcce94045ddaab7c2ab3e-us5
-
-// audience ID
-// 12cc7b93fe
-// this is added in vim
